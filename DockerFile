@@ -1,0 +1,12 @@
+#Rest api
+
+from node
+label maintainer manoj kumar jain
+run mkdir /code
+add node.js /code/node.js
+add data.json /code/data.json
+run npm install -y express
+run npm install -y body-parser
+expose 9000
+workdir /code
+cmd node /code/node.js
